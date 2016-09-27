@@ -1,0 +1,40 @@
+body {
+	background-color: #111;
+	color: #fafafa;
+	padding-top: 70px;
+	font-family: 'Raleway', sans-serif;
+}
+
+p {
+	font-size: 17px;
+}
+
+#filosofi {
+	padding-top: 70px;
+}
+
+#showroom {
+	padding-top: 70px;
+}
+
+#contact {
+	padding-top: 70px;
+}
+
+.navbar-brand img {
+    max-height: 100%;
+    display: inline-block;
+}
+
+.text-orange {
+	color: #e68a00;
+}
+
+.text-footer {
+	font-size: 12px;
+}
+
+.well {
+	background: #0d0d0d;
+	border: 1px solid black;
+}
