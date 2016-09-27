@@ -1,18 +1,23 @@
 body {
-	background-color: #111;
+	background-color: #111111;
 	color: #fafafa;
 	/*padding-top: 50px;*/
 	font-family: 'Raleway', sans-serif; }
 
 .header {
+	min-height: 300px;
   text-align: center;
+	color: #fafafa;
+	text-shadow: 2px 2px 2px rgba(220, 0, 40, 0.5);
   background-size: cover;
   padding: 4rem;
-  margin-bottom: 40px; }
+  margin-bottom: 20px; }
+#langsel {
+	text-align: right;
+	margin-bottom: 40px; }
 h1 {
 	/*background-color: rgba(200,100,0,0.5);*/
 	padding-top: 70px; }
-
 p {
 	font-size: 17px; }
 
@@ -25,16 +30,33 @@ p {
 #contact {
 	padding-top: 70px; }*/
 
+.navbar-inverse {
+	color: #fafafa;
+	border: 0px;
+	border-bottom: 0px solid #dd002a;
+	background-color: rgba(0,0,0,0.7); }
+.navbar-inverse .navbar-nav li a {
+	color: #fafafa;
+	border-bottom: 3px solid transparent; }
+.navbar-inverse .navbar-nav li a:hover {
+	color: #fbfbfb;
+	content: attr(hover);
+	transition: max-width 300ms ease-out;
+	border-bottom: 3px solid #dd002a; }
+.navbar-inverse .navbar-brand {
+	color: #fafafa; }
 .navbar-brand img {
-    max-height: 100%;
-    display: inline-block; }
+  max-height: 100%;
+  display: inline-block; }
 
 .text-orange {
 	color: #e68a00; }
-
 .text-footer {
 	font-size: 12px; }
 .footer {
+	/*position: sticky;
+	bottom: -1px;*/
+	min-height: 80px;
 	margin-top: 40px;
 	padding-top: 30px;
 	background-color: #0d0d0d; }
@@ -42,3 +64,15 @@ p {
 .well {
 	background: #0d0d0d;
 	border: 1px solid black; }
+
+.fotothumb {
+  border: 0px;
+  box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.5);
+  display: inline-block;
+  line-height: 0;
+  max-width: 100%;
+  transition: box-shadow 200ms ease-out;
+  border-radius: 0;
+  margin-bottom: 1rem; }
+.fotothumb:hover, .fotothumb:focus {
+  box-shadow: 0 0 6px 1px rgb(111, 0, 0); }
