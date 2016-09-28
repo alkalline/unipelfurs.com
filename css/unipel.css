@@ -1,8 +1,13 @@
 body {
-	background-color: #111111;
+	background: url("../images/background.jpg") no-repeat center center;
+  background-size: cover;
 	color: #fafafa;
 	/*padding-top: 50px;*/
 	font-family: 'Raleway', sans-serif; }
+
+/*.container{
+	background-color: rgba(0,0,0,0.7);
+}*/
 
 .header {
 	min-height: 300px;
@@ -16,8 +21,10 @@ body {
 	text-align: right;
 	margin-bottom: 40px; }
 h1 {
-	/*background-color: rgba(200,100,0,0.5);*/
+	font-size: 3em;
 	padding-top: 70px; }
+h2 {
+	padding-bottom: 20px; }
 p {
 	font-size: 17px; }
 
@@ -61,9 +68,9 @@ p {
 	padding-top: 30px;
 	background-color: #0d0d0d; }
 
-.well {
+/*.well {
 	background: #0d0d0d;
-	border: 1px solid black; }
+	border: 1px solid black; }*/
 
 .fotothumb {
   border: 0px;
