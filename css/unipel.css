@@ -1,9 +1,9 @@
-*{ border: 0px solid blue; }  /* for testing purposes */
+* { border: 0px solid blue; }  /* for testing purposes */
 
 body {
 	background: url("../images/background.jpg") no-repeat center center;
   background-size: cover;
-	color: #000000; /* fafafa*/
+	color: #000000;
 	/*padding-top: 50px;*/
 	font-family: 'Raleway', sans-serif; }
 
@@ -26,39 +26,37 @@ h1 {
 	font-size: 3em;
 	padding-top: 80px; }
 h2 {
-	color: #b8976b; /* */
+	color: #b8976b;
 	padding-bottom: 20px; }
 p {
 	font-size: 17px; }
-
-/*#filosofi {
-	padding-top: 70px; }
-
-#showroom {
-	padding-top: 70px; }
-
-#contact {
-	padding-top: 70px; }*/
+a, a:focus, a:active {
+	text-decoration: none;
+	color: #dd002a; }
+a:hover {
+	text-decoration: underline;
+	text-decoration-color: transparent;;
+	transition: all 1s ease;
+	color: #dd002a; }
 
 .navbar-inverse {
-	color: #000000; /* fafafa */
+	color: #000000;
 	border: 0px;
 	border-bottom: 0px solid #dd002a;
-	background-color: rgba(237,237,237,0.8); } /* 0,0,0,0.7 */
+	background-color: rgba(237,237,237,0.8); }
 .navbar-inverse .navbar-nav li a {
-	color: #000000; /* fafafa*/
-	border-bottom: 3px solid transparent; }
+	color: #000000;
+	border-bottom: 3px solid transparent;
+/*transition: all 0.2s ease-out;*/ }
 .navbar-inverse .navbar-nav li a:hover {
-	color: #dd002a; /* fbfbfb */
+	color: #dd002a;
 	content: attr(hover);
-	transition: max-width 300ms ease-out;
+	transition: all 0.2s ease-out;
 	border-bottom: 3px solid #dd002a; }
 .navbar-inverse .navbar-brand {
-	color: #000000; /* fafafa */
-/*border-bottom: 3px solid transparent;*/ }
+	color: #000000; }
 .navbar-inverse .navbar-brand:hover {
-	/*border-bottom: 3px solid #dd002a;*/
-	color: #dd002a; } /* fafafa */
+	color: #dd002a; }
 .navbar-brand img {
   max-height: 100%;
   display: inline-block; }
@@ -76,10 +74,6 @@ p {
 	padding-top: 30px;
 	background-color: #0d0d0d; }
 
-/*.well {
-	background: #0d0d0d;
-	border: 1px solid black; }*/
-
 .fotothumb {
   border: 0px;
   box-shadow: 0 0 0 1px rgba(10, 10, 10, 0.5);
@@ -90,4 +84,4 @@ p {
   border-radius: 0;
   margin-bottom: 1rem; }
 .fotothumb:hover, .fotothumb:focus {
-  box-shadow: 0 0 6px 1px rgb(111, 0, 0); }
+  box-shadow: 0 0 6px 1px rgb(200, 167, 123); }
