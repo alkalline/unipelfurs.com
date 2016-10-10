@@ -17,16 +17,20 @@ body {
 	color: #fafafa;
 	text-shadow: 2px 2px 2px rgba(237, 237, 237, 0.5);
   background-size: cover;
+	border-bottom: 2px solid #b8976b;
   padding: 4rem;
   margin-bottom: 20px; }
 #langsel {
 	text-align: right;
 	margin-bottom: 40px; }
+#langsel img {
+	border: 1px solid #b8976b; }
 h1 {
 	font-size: 3em;
 	padding-top: 80px; }
 h2 {
 	color: #b8976b;
+	text-shadow: 1px 1px 1px rgb(90, 90, 90);
 	padding-bottom: 20px; }
 p {
 	font-size: 17px; }
@@ -35,15 +39,17 @@ a, a:focus, a:active {
 	color: #dd002a; }
 a:hover {
 	text-decoration: underline;
-	text-decoration-color: transparent;;
+	text-decoration-color: transparent;
 	transition: all 1s ease;
+	-webkit-text-decoration-color: transparent; /*safari support*/
+	-webkit-transition: all 1s ease; /*safari support*/
 	color: #dd002a; }
 
 .navbar-inverse {
 	color: #000000;
 	border: 0px;
 	border-bottom: 0px solid #dd002a;
-	background-color: rgba(237,237,237,0.8); }
+	background-color: rgba(237,237,237,0.9); }
 .navbar-inverse .navbar-nav li a {
 	color: #000000;
 	border-bottom: 3px solid transparent;
@@ -52,6 +58,7 @@ a:hover {
 	color: #dd002a;
 	content: attr(hover);
 	transition: all 0.2s ease-out;
+	-webkit-transition: all 0.2s ease-out;
 	border-bottom: 3px solid #dd002a; }
 .navbar-inverse .navbar-brand {
 	color: #000000; }
@@ -62,7 +69,8 @@ a:hover {
   display: inline-block; }
 
 .text-orange {
-	color: #e68a00; }
+	color: #b8976b;
+	text-shadow: 1px 1px 1px rgb(120, 120, 120); }
 .text-footer {
 	font-size: 12px; }
 .footer {
@@ -72,6 +80,7 @@ a:hover {
 	min-height: 70px;
 	margin-top: 30px;
 	padding-top: 30px;
+	border-top: 2px solid #b8976b;
 	background-color: #0d0d0d; }
 
 .fotothumb {
@@ -81,6 +90,7 @@ a:hover {
   line-height: 0;
   max-width: 100%;
   transition: box-shadow 200ms ease-out;
+  -webkit-transition: box-shadow 200ms ease-out;
   border-radius: 0;
   margin-bottom: 1rem; }
 .fotothumb:hover, .fotothumb:focus {
